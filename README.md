@@ -1,80 +1,80 @@
-#  Expense Tracker Application
 
+1. **Expense Tracker Application**
 
 ## Features
 
-1. **Expense Recording:**
-   - Users can add new expenses by filling in details such as title and amount.
-   - Each expense is assigned a unique identifier automatically.
+1. **Expense Tracking:**
+   - Users can log new expenses by providing details like title and amount.
+   - Each expense is automatically assigned a unique identifier.
 
-2. **Data Storage:**
-   - The application utilizes a JSON server to store and retrieve expense data.
+2. **Data Management:**
+   - Utilizes a JSON server for seamless storage and retrieval of expense data.
 
 3. **Expense Overview:**
-   - The main dashboard displays a summary of total spending, individual contributions, and balance to be settled.
+   - The main dashboard offers a snapshot of total expenditure, individual contributions, and outstanding balances.
 
-4. **Future Developments:**
-   - Planned features include month-wise data selection, login functionality, and restrictions on updating previous months.
+4. **Upcoming Enhancements:**
+   - Planned upgrades encompass selecting data by month, implementing user authentication, and imposing constraints on altering past records.
 
-## How it Works
+## How to Use
 
-1. **Expense Recording:**
-   - Navigate to the "Add New Expense" page using the provided link.
-   - Fill in the details of the expense, such as title and amount.
-   - Click "Add Expense" to record the expense.
+1. **Recording Expenses:**
+   - Access the "Add New Expense" page through the provided link.
+   - Input expense particulars such as title and amount.
+   - Click "Add Expense" to register the expense.
 
 2. **Data Overview:**
-   - Visit the main dashboard to view a summary of total spending, individual contributions, and balances.
-   - The application calculates and displays who owes money to whom.
+   - Visit the main dashboard to review a summary of expenses, individual contributions, and outstanding balances.
+   - The application computes and displays debtors and creditors.
 
-3. **Future Features:**
-   - Future developments include selecting data for a specific month, login functionality, and preventing updates for previous months.
+3. **Future Additions:**
+   - Anticipated additions involve month-wise data selection, user authentication, and safeguarding previous records from alterations.
 
 ## Prerequisites
 
-Make sure you have the following installed on your machine:
+Ensure that your machine has the following installed:
 
 - Node.js
 - npm (Node Package Manager)
 
-## Clone the Repository
+## Cloning the Repository
 
 git clone ```<repository-url>```
 
 cd ```<project-folder>```
 
 
-## Instructions to Run
+## Instructions for Execution
 
-1. **Setup your project:**
-    - npx create-react-app expense-tracker - in case you are doing on your own
-    - cd expense-tracker - in case you are creating on your own
+1. **Setting up the Project:**
+    - npx create-react-app expense-tracker - if creating anew
+    - cd expense-tracker - if starting fresh
     - Install required packages:
     - npm install -g json-server
     - npm install react-router-dom
-    - Create a `db.json` file in the root of your project with appropriate initial data. Already in the project omit this.
-    - Start the JSON server using the command: `json-server --watch db.json --port 3000`
+    - Create a `db.json` file in the project root with appropriate initial data. Skip if already exists.
+    - Initiate the JSON server with: `json-server --watch db.json --port 3000`
 
-2. **Run the React App:**
-   - Ensure dependencies are installed: `npm install`
-   - Start the React app: `npm start` Enter Y when prompted.
+2. **Launching the React App:**
+   - Ensure all dependencies are installed: `npm install`
+   - Begin the React app: `npm start` Confirm with Y when prompted.
 
-3. **Access the Application:**
-   - Open your browser and go to `http://localhost:3001` (or the port specified by your React app).
+3. **Accessing the Application:**
+   - Open your browser and navigate to `http://localhost:3001` (or the specified port by your React app).
 
-4. **Record Expenses:**
-   - Navigate to the "Add New Expense" page to record new expenses.
+4. **Recording Expenses:**
+   - Head to the "Add New Expense" page to log new expenses.
 
-5. **View Dashboard:**
-   - Go to the main dashboard to view the summary of expenses and balances.
+5. **Exploring the Dashboard:**
+   - Access the main dashboard to review expense summaries and balances.
 
-6. **Explore Future Features:**
-   - Keep an eye on future updates for additional features.
+6. **Discovering Future Features:**
+   - Stay updated for forthcoming enhancements.
 
-## Project Structure
+## Project Organization
 
-The project follows a modular structure with components like `Home`, `AddExpense`, and `App`. Routing is handled using `react-router-dom`. The application uses Bootstrap for styling and Font Awesome for icons.
+The project adheres to a modular structure featuring components like `Home`, `AddExpense`, and `App`. Routing is facilitated by `react-router-dom`. Bootstrap is employed for styling, while Font Awesome supplies icons.
 
 ---
 
-*Note: Ensure you have Node.js and npm installed on your machine before running the application.*
+*Note: Node.js and npm must be installed on your machine prior to running the application.*
